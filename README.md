@@ -1,7 +1,7 @@
 # Projeckt323
 
 ## Projeckt
-A simple flshcard web application made with SavaScript
+Eine einfache flshcard Webanwendung mit SavaScript gemacht. Dazu hat das gances Programm fungcioniert, das mir bei meinem letzten projeckt von Wetter geholfen hat und das von dort aus inspirierte plus noch die projeckte von Lehrer und ein par webseiten  
 
 ## Quellen
 1. Prokeckte von Lehrer (https://github.com/SwitzerChees)
