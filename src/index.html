@@ -1,31 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modul 323 - Example Project</title>
+    <title>Modul 323 - Flashcard</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="h-screen w-screen bg-gray-200">
+
+  <body class="h-screen w-screen">
     <header class="p-4">
-      <div class="max-w-2xl m-auto flex items-center gap-4 border-b-gray-700 border-b pb-4">
-        <img src="logo.png" alt="Logo" class="w-10" />
-        <span class="font-mono font-bold">Flashcards by Teo</span>
+      <div class="max-w-2xl m-auto flex items-center gap-4 border-b-gray-200 border-b pb-2">
+        <img src="logo.png" alt="Logo" class="w-12" />
+        <span class="font-mono font-bold">Modul 323 - Flashcard</span>
       </div>
     </header>
-    <main class="max-w-lg m-auto py-4 flex flex-col items-center gap-4" id="app"></main>
-    <h1 class="text-center font-bold">Create new Card:</h1>
-    <form>
-      <label for="fname">Text1:</label>
-      <input type="text" id="fname" name="fname">
-      <label for="lname">text2:</label>
-      <input type="text" id="lname" name="lname">
-    </form>
-    <br>
-    <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded items-center" id="plus">Create</button>
-    <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded items-center" id="min">Discard</button>
+    <main class="max-w-2xl m-auto py-4 flex flex-col gap-4" id="app"></main>
     <footer class="p-4">
-      <div class="max-w-2xl m-auto text-center border-t-gray-700 border-t pt-4">Timoteo Muñoz Blasco</div>
+      <div class="max-w-2xl m-auto text-center border-t-gray-200 border-t pt-4">Learn is cool</div>
     </footer>
     <script src="bundle.js"></script>
   </body>
